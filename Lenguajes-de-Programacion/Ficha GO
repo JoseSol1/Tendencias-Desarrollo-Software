@@ -1,1 +1,28 @@
+Go
+
+•	Propósito: diseñado para ser fácil de escribir y mantener. Se enfoca en la escalabilidad de sistemas grandes.
+
+•	Paradigma: Principalmente imperativo, per al mismo tiempo funcional y orientado a objetos.
+
+•	Fortalezas y debilidades
+Fortalezas: 
+-Fácil de escribir
+-Similar a c y c++
+-Velocidades de ejecución rápidas
+-Soportado por múltiples herramientas de programación, como IDEs.
+Debilidades:
+-Lenguaje nuevo
+
+•	Implementación: Compilado
+
+•	Runtime / Máquina Virtual: no necesita maquina virtual, tiene su propio runtime.
+
+•	Plataformas soportadas: Win, Linux, Mac y múltiples arquitecturas de hardware.
+
+•	Usuarios notables: Google, Paypal, American Express, Microsoft, Meta, Dropbox, 
+Uber, Twitter, Netflix, Cloudfare.
+
+•	Historia: Creado en 2007 por Robert Griesemer, Rob Pike y Ken Thompson de Google. Lanzado públicamente en 2012 con la versión 1.0. La última versión, 1.23.3, fue lanzada el 7 de mayo del 2024
+
+•	Estado: Activo
 
