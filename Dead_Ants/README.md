@@ -6,7 +6,7 @@ Dead Ants Proy is a C# program for counting dead ants in a string input.
 
 To use Dead Ants Proy, follow these steps:
 
-1. Clone the repository
+1. Clone the repository using https://github.com/JoseSol1/Tendencias-Desarrollo-Software/tree/694c9082147218fae74ede846b424905d3ba79c4/Dead_Ants
 2. Open it in Visual Studio
 
 ## Usage
