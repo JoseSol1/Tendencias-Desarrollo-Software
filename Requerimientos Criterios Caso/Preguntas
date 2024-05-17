@@ -1,0 +1,52 @@
+1.	¿Qué es un Coding Dojo? referencia https://lorenzosolano.com/what-is-coding-dojo/
+Una reunión donde programadores se reúnen para resolver algún problema. Esto se hace como una practica para mejorar sus habilidades.
+
+2.	Diferencia entre Requerimientos, Criterios de Aceptación y Escenarios de Prueba. Dar ejemplos a partir de un problema distinto a la referencia. Referencia https://lorenzosolano.com/requirements-acceptance-criteria-and/
+Requerimientos: Algo que el programa a diseñar debe de cumplir. Existen distintos tipos de requerimientos, como producto, proceso, funcional y no funcional.
+Ej. Los usuarios deben poder crear un login con usuario y contraseña único
+
+Criterios de Aceptación: guía de como comprobar que el software cumple con los requerimientos.
+Ej. 
+-El sistema debe asegurarse de que los nombres de usuario sean únicos.
+-El sistema debe comunicar los criterios para aceptar una contraseña.
+
+Escenarios de Prueba: ejemplos utilizados para validar un único criterio de aceptación. 
+Ej. Un usuario quiere crear una nueva cuenta.
+-El usuario accede al sistema
+-Llena la registración con un usuario único y contraseña aceptable.
+-El usuario confirma la registración
+-El sistema acepta el login.
+
+3.	De dos ejemplos de requerimientos no-funcionales, y especifique cuál es su categoría (seguridad, performance, portabilidad, etc.)
+
+-El sistema debe de escalar en la dirección que sea necesario. (performance)
+-El sistema debe estar protegido en contra de acceso no autorizado. (seguridad)
+
+4.	¿Qué es TDD?
+
+Test-Driven Development: Consiste en crear los casos de prueba antes de comenzar a hacer el código. 
+
+5.	¿Que son pruebas unitarias automatizadas?
+
+Las pruebas unitarias son aquellas que buscan probar la funcionalidad de una unidad de código pequeña. Las pruebas unitarias automatizadas garantizan que estas pruebas se lleven a cabo durante el ciclo de desarrollo del código.
+
+6.	¿Cuál fue el 1er framework de pruebas unitarias y para cual lenguaje fue creado?
+SUnit en el 1998, fue creado para probar en SmallTalk.
+
+7.	¿Describa los componentes de la arquitectura xUnit?
+-Test Case: verifica un comportamiento especifico en el código. 
+-Assertion: se implementan aserciones para validar resultados esperados.
+-Test Suite colección de casos de prueba relacionados. Comparten un framework.
+-Test Fixture provee el environment para cada caso de prueba dentro de un conjunto de pruebas.
+-Test Runner: programa que ejecuta las pruebas y retorna resultados.   
+
+8.	Indique al menos tres desventajas de las pruebas unitarias automatizadas
+
+-No siempre fiables. Si se prueba en un escenario mal definido, pueden surgir falsas alarmas.
+-Esfuerzo de mantenimiento. Requieren de igual cantidad de mantenimiento que los programas.
+-Falso sentido de Calidad. Si solo se prueba lo que se supone que el programa haga, pueden existir fallos inesperados.
+
+9.	Indique al menos tres ventajas de las pruebas unitarias automatizadas
+-Retroalimentación instantánea: resultado rápido.
+-Revisión rápida: hace el proceso de prueba y revisión mucho más eficiente.
+-Confirmación de lo conocido: comprueba que las funcionen cumplen con lo que se espera de ellas. 
